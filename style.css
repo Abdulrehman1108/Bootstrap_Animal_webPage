@@ -1,0 +1,256 @@
+#top_nav{
+    background-color: #daac00 !important;
+    padding: 0 8% ;
+    
+}
+.navbar-dark, .navbar[data-bs-theme=dark]{
+    font-size: 20px;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    color:white ;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 46px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#searchbox::placeholder{
+    color: white;
+
+}
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    border: 0px;
+    border-radius: 0%;
+    background-color: #00bec9;
+    color: white;
+}
+@media only screen and ( max-width: 991px ){
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -45px;
+
+    }
+}
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+
+}
+#bannertext h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 3px solid #00bec9;
+    color: white;
+}
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+
+@media only screen and ( max-width: 1077px ){
+    #bannertext h1{
+        font-size: 50px;
+        
+    }
+    #banner{
+        padding-bottom: 60px;
+    }
+}
+@media only screen and ( max-width: 782px ){
+    #bannertext h1{
+        font-size: 40px;
+        
+    }
+    #banner{
+        padding-bottom: 60px;
+    }
+}
+@media only screen and ( max-width: 318px ){
+    #bannertext h1{
+        font-size: 30px;
+        
+    }
+    #banner{
+        padding-bottom: 60px;
+    }
+}
+#service-text{
+    font: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+
+}
+
+#service-text p{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#service-img{
+   
+    
+}
+#counter-section{
+    background-image: url(counter-img.png);
+    
+  
+}
+.counter-icon{
+    font-size: 70px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and ( max-width: 768px ){
+    .counter-icon{
+       padding-bottom: 0px;
+       margin-bottom: 1px;
+        
+    }
+   
+}
+#blog-title{
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+
+#blog-p{
+    padding-bottom: 20px;
+
+}
+
+#blog{
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+
+.article-details{
+    padding: 15px;
+    
+    
+    border: 1px solid rgba(185,185,185);
+    border-top: 0px;
+}
+
+.article-details h4{
+    
+    font-weight: bolder;
+}
+.text-here{
+    font-size: 20px;
+}
+.date{
+    color: #00bec9;
+    
+}
+.my-a{
+    color: #00bec9;
+
+}
+#blog-img{
+    
+}
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer a{
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    
+
+}
+#bbb{
+    padding-left: 150px;
+}
+#formm{
+    padding-top: 10px;
+   
+}
+#brrr{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#footer-search-box{
+    background-color: #00bec9;
+    border: 0;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    max-width: fit-content;
+    position: relative;
+    left: 10px;
+}
+#bbb button{
+    background-color:#fcc302 ;
+    border: 0;
+    color: white;
+    border-radius: 0;
+    padding: 5px 15px;
+}
+#bbb h4{
+    padding-left: 10px;
+}
+#bbb p{
+    padding-left: 10px;
+}
+
+@media only screen and ( max-width: 1210px ){
+    #footer-search-box{
+        max-width: 120px;
+       
+    }
+   
+}
+
+@media only screen and ( max-width: 996px ){
+    #footer-search-box{
+        max-width: 90px;
+       
+    }
+   
+}
+
+@media only screen and ( max-width: 906px ){
+    #footer-search-box{
+        max-width: 50px;
+       
+    }
+    #footer{
+        padding-top: 10px;
+    }
+    #footer h4{
+        padding-top: 10px;
+    }
+   
+}
